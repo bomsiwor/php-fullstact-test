@@ -53,7 +53,11 @@ class MyClientService
             // Check if client logo already filled
             // Delete logo if any
             if ($client->client_logo !== 'no-image.jpg') {
-                Storage::disk('s3')->delete($client->client_logo);
+                // Extract path from url
+                $path = str_replace(Storage::disk('s3')->url(), '', $client->client_logo) ;
+
+                // Can not use full url
+                Storage::disk('s3')->delete($path);
             }
 
             // Store new logo on s3
