@@ -20,12 +20,12 @@ Repository ini digunakan untuk technnical assesment pada PT ASI ASIA sebagai ful
 
 1. **Clone Repository & Install Dependencies**  
    ```sh
-   git clone https://github.com/your-repo/my-client-api.git
-   cd my-client-api
+   git clone https://github.com/bomsiwor/php-fullstact-test <nama folder mu yg keren>
+   cd <nama folder mu yang keren>
    composer install
    ```
 
-2. **Konfigurasi `.env`**  
+2. **Set `.env`**  
    - **Database:**  
      ```env
      DB_CONNECTION=pgsql
@@ -52,12 +52,12 @@ Repository ini digunakan untuk technnical assesment pada PT ASI ASIA sebagai ful
      AWS_URL=https://your-bucket.s3.amazonaws.com
      ```
 
-3. **Jalankan Migration**  
+3. **Run Migration**  
    ```sh
    php artisan migrate
    ```
 
-4. **Jalankan Server**  
+4. **Jalan Server**  
    ```sh
    php artisan serve
    ```
