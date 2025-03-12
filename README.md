@@ -16,6 +16,11 @@ Repository ini digunakan untuk technnical assesment pada PT ASI ASIA sebagai ful
 - **Redis**
 - **AWS S3**
 
+## Postman
+
+Repository ini menyertakan postman collection untuk testing API.
+[Postman Collection download here](./PT ASI.postman_collection.json)
+
 ---
 
 ## **Setup Project**
