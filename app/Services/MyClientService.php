@@ -41,7 +41,7 @@ class MyClientService
         $client = MyClient::create($data);
 
         // Newe data stored on redis
-        // Redis::set($client->slug, json_encode($client));
+        Redis::set($client->slug, json_encode($client));
 
         return $client;
     }
