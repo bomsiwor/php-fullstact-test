@@ -19,7 +19,7 @@ Repository ini digunakan untuk technnical assesment pada PT ASI ASIA sebagai ful
 ## Postman
 
 Repository ini menyertakan postman collection untuk testing API.
-[Postman Collection download here](./PT ASI.postman_collection.json)
+[Postman Collection download here](/PT ASI.postman_collection.json)
 
 ---
 
